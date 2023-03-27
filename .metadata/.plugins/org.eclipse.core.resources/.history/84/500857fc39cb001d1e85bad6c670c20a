@@ -1,0 +1,20 @@
+package ejercicio1;
+
+public class ejercicio1 {
+
+	public static void incisoA(int a, int b) {
+		if(a<b) {
+			for(int a=a; a <= b; a++) {
+				System.out.println(a);
+				
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

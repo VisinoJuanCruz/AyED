@@ -1,0 +1,33 @@
+package ejercicio3;
+
+
+public class ejercicio3 {
+
+	public static void main(String[] args) {
+		
+		Estudiante[] arrEstudiantes = new Estudiante[2];
+		Profesor[] arrProfesores = new Profesor[3];
+		
+		Estudiante estudiante1 = new Estudiante();
+		Estudiante estudiante2 = new Estudiante();
+		
+		estudiante1.setNombre("Juan Cruz");
+		estudiante1.setApellido("Visino");
+		estudiante1.setEmail("visinojuancruz@gmail.com");
+		estudiante1.setComision("3B");
+		estudiante1.setDireccion("Calle 38");
+		
+		estudiante2.setNombre("Chichi");
+		estudiante2.setApellido("Gomez");
+		estudiante2.setEmail("chichi@hotmail.com");
+		estudiante2.setComision("5D");
+		estudiante2.setDireccion("Calle 45");
+		
+		arrEstudiantes[0] = estudiante1;
+		arrEstudiantes[1] = estudiante2;
+		
+		
+
+	}
+
+}

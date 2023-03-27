@@ -1,0 +1,16 @@
+package ejercicio3;
+
+
+public class ejercicio3 {
+
+	public static void main(String[] args) {
+		
+		Estudiante[] arrEstudiantes = new Estudiante[2];
+		Profesor[] arrProfesores = new Profesor[3];
+		
+		Estudiante estudiante1 = new Estudiante();
+		
+
+	}
+
+}

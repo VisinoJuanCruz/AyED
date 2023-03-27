@@ -1,0 +1,39 @@
+package ejercicio1;
+
+public class ejercicio1 {
+
+	public static void incisoA(int a, int b) {
+		if(a<b) {
+			int max = b;
+			for(int min=a; min <= max; min++) {
+				System.out.println(min);
+			}
+		}else {
+			int max = a;
+			for(int min = b; min <= max; min++) {
+				System.out.println(min);
+			}
+		}
+	}
+	
+	public static void incisoB(int a, int b) {
+		if(a<b) {
+			int min = a;
+			int max = b;
+		}else {
+			int min = b;
+			int max = a;
+		}
+		while(min <= max) {
+			System.out.println(min);
+			min++;
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

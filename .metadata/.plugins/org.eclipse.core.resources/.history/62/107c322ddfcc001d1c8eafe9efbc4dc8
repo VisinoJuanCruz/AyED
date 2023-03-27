@@ -1,0 +1,11 @@
+package ejercicio3;
+
+public class Profesor {
+
+	private String catedra;
+	private String facultad;
+	
+	public String getCatedra() {
+		return this.catedra;
+	}
+}

@@ -52,7 +52,7 @@ public class ejercicio1 {
 	}
 	
 	public static void main(String[] args) {
-		incisoA(5,8);
+		incisoA(10,5);
 		incisoB(5,8);
 		incisoC(5,8);
 		

@@ -1,0 +1,20 @@
+package ejercicio1;
+
+public class ejercicio1 {
+
+	public static void incisoA(int a, int b) {
+		if(a<b) {
+			int max = b;
+			for(int min=a; min <= max; min++) {
+				System.out.println(a);
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

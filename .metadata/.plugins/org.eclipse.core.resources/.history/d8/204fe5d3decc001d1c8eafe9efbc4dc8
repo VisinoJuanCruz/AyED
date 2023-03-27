@@ -1,0 +1,23 @@
+package ejercicio3;
+
+public class Estudiante extends Persona {
+
+	
+	private String comision;
+	private String direccion;
+	
+	public String getComision() {
+		return this.comision;
+	}
+	
+	public void setComision(String unaComision) {
+		this.comision = unaComision;
+	}
+	
+	public String direccion() {
+		return this.direccion;
+	}
+	
+	
+	
+}
