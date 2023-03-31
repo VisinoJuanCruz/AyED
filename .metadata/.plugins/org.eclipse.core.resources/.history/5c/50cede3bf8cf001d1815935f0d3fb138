@@ -1,0 +1,27 @@
+package ejercicio5;
+
+public class MinMaxAvg {
+
+	int min;
+	int max;
+	float avg;
+	
+	public MinMaxAvg(int min, int max, float avg) {
+		this.min = min;
+		this.max = max;
+		this.avg = avg;
+	}
+	
+	public int getMin() {
+		return this.min;
+	}
+	
+	public int getMax() {
+		return this.max;
+	}
+	
+	public float getAvg() {
+		return this.avg;
+	}
+	
+}

@@ -1,0 +1,20 @@
+package ejercicio5;
+
+public class ejercicio5 {
+
+	int[] intArray = new int[] {5,6,7,10,22,30};
+	
+	public static MinMaxAvg primeraFuncion() {
+		MinMaxAvg valoresMinMaxAvg = new MinMaxAvg();
+		for(int num: intArray) {
+			
+		}
+	}
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

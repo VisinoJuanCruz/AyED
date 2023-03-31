@@ -1,0 +1,28 @@
+package ejercicio5;
+
+public class ejercicio5 {
+
+	static int[] intArray = new int[] {5,6,7,10,22,30};
+	
+	public static MinMaxAvg primeraFuncion() {
+		int min = intArray[0];
+		int max = intArray[0];
+		float total = 0;
+		for(int num: intArray) {
+			total += num;
+			if(min > num) {
+				min = num;
+			}
+			if(max < num) {
+				max = num;
+			}
+		}
+	}
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}
