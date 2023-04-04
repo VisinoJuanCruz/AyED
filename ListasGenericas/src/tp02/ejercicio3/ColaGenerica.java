@@ -9,32 +9,35 @@ public class ColaGenerica<T> {
 	private int tamanio = 0;
 	
 	
+	public boolean esVacia() {
+		return this.tamanio == 0;
+	}
+	
 	public void encolar(T elem) {
 		
 		NodoGenerico<T> nuevoNodo = new NodoGenerico<T>();
 		nuevoNodo.setDato(elem);
 		if(this.esVacia()) {
 			this.primero = nuevoNodo;
+			this.ultimo = nuevoNodo;
+		}else { 
+			this.ultimo.setSiguiente(nuevoNodo);
+			this.ultimo = nuevoNodo;
+			this.tamanio++;
 		}
-		this.ultimo.setSiguiente(nuevoNodo);
-		this.ultimo = nuevoNodo;
-		this.tamanio++;
-
 	}
 	
-	public NodoGenerico<T> desencolar(){
+	public T desencolar(){
 		
 		NodoGenerico<T> nodoDesencolado = this.primero;
 		this.primero = this.primero.getSiguiente();
-		return nodoDesencolado;
+		return nodoDesencolado.getDato();
 	}
 	
 	public NodoGenerico<T> tope(){
 		return this.ultimo;
 	}
 	
-	public boolean esVacia() {
-		return this.tamanio == 0;
-	}
+	
 	
 }
